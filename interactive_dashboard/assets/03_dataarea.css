@@ -1,0 +1,8 @@
+.dataarea-container{
+    display: flex; 
+    flex-direction: column;
+    width: 20%;
+    background: black;
+    padding-top: 20px;
+}
+

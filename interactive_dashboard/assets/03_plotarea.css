@@ -1,0 +1,27 @@
+.plotarea-container{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.766); 
+    color: black;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 912px){
+    .plotarea-container{
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        align-items: center;
+        justify-content:center;
+        background: rgba(255, 255, 255, 0.766); 
+        color: black;
+        /* overflow: hidden; */
+    }
+}
+
+.graph{
+    display: flex; 
+    justify-content: center;
+}
