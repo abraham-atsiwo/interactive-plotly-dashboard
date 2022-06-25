@@ -1,5 +1,4 @@
 from dash import Input, Output
-from interactive_dashboard import app
 from inspect import signature
 from .utils import all_plot_args, data_sources, plot_types, exceptions
 import plotly.graph_objects as go
@@ -10,7 +9,7 @@ color_continuous_scale = {'algae':pc.sequential.algae,
                         'amp':pc.sequential.amp, 'Blackbody':pc.sequential.Blackbody, 
                         'matter': pc.sequential.matter, 'Peach': pc.sequential.Peach
                         }
-def init_callback():
+def init_callback(app):
     @app.callback(
         [Output('plotarea', 'figure')],
         inputs = {

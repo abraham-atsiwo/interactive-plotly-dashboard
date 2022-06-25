@@ -3,7 +3,7 @@ from dash.html import Div, Footer
 from interactive_dashboard import app
 from interactive_dashboard.callback import init_callback
 
-
+server = app.server 
 
 app.layout = Div([navbar(),
     Div(
@@ -19,7 +19,7 @@ app.layout = Div([navbar(),
 )
 
 
-init_callback()
+init_callback(app)
 
 if __name__=='__main__':
     app.run_server(debug=True)
