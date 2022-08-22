@@ -1,4 +1,4 @@
-## Dynamic Interactive Data Visualization Dashboard
+## Interactive Data Visualization Dashboard
 A data visualization dashboard that enables users to build dynamic 2D and 3D plots in the browser. The dynamic dashboard is based on the `plotly express` api.
 
 
